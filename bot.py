@@ -16,8 +16,7 @@ from telegram.ext import (
 )
 
 # ========== Настройки ==========
-#BOT_TOKEN       = "8074813051:AAEisq2aQ58T61MYi4XXrBC0Bm2qZVPSdaU"
-#ADMIN_PASSWORD  = "1234"
+
 BOT_TOKEN      = os.getenv("BOT_TOKEN")
 ADMIN_PASSWORD = os.getenv("ADMIN_PASSWORD")
 # =================================
